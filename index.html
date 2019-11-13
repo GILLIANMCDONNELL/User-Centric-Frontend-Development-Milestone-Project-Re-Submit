@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Monkees</title>
 </head>
-<body>
 
-    <nav id="navbar-example2" class="navbar navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#music">Music</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#shows">Shows</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#photos">Photos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        <h4 id="home">Home</h4>
-        <p>...</p>
-        <h4 id="about">About</h4>
-        <p>...</p>
-        <h4 id="music">Music</h4>
-        <p>...</p>
-        <h4 id="shows">Shows</h4>
-        <p>...</p>
-        <h4 id="photos">Photos</h4>
-        <p>...</p>
-        <h4 id="contact">Contact</h4>
-        <p>...</p>
+<body data-spy="scroll" data-target="#scroll-nav">
+    <!--*****ScrollSpy NavBar*******-->
+
+        <nav id="main-scroll" class="navbar">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/image/monkees-logo.png" class="img-logo" alt="The Monkees Logo">
+            </a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#music">Music</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#shows">Shows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#photos">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <div data-spy="scroll" data-target="#main-scroll" data-offset="0">
+            <!--******Home Section*****-->
+            <div id="home">
+            <h4 id="home">Home</h4>
+            
+
+            </div>
+            <!--******About Section*****-->
+            <h4 id="about">About</h4>
+            <p>...</p>
+
+            <!--******Music Section*****-->
+            <h4 id="music">Music</h4>
+            <p>...</p>
+
+            <!--******Shows Section*****-->
+            <h4 id="shows">Shows</h4>
+            <p>...</p>
+
+            <!--******Gallery Section*****-->
+            <h4 id="photos">Photos</h4>
+            <p>...</p>
+
+            <!--******Contact Section*****-->
+            <h4 id="contact">Contact</h4>
+                <p>...</p>
+
         </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+    $('body').scrollspy({ target: '#scroll-nav' })
+</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

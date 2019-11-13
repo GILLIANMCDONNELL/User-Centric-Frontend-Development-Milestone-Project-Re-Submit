@@ -1,0 +1,38 @@
+body {
+    position: relative;
+    background-color: #272727;*/
+}
+.navbar-brand img {
+    width: auto;
+    height: 150px;
+}
+a {
+    color: #747474;
+    text-transform: uppercase;
+}
+h4 {
+    color: #747474;
+}
+#home {
+    background-color: #ff652f;
+}
+
+#about {
+    background-color: #ffe400;
+}
+
+#music {
+    background-color: #14A76C;
+}
+
+#shows {
+    background-color: #0074e1;
+}
+
+#photos {
+    background-color: #8f00cd;
+}
+
+#contact {
+    background-color: #c62703;
+}
