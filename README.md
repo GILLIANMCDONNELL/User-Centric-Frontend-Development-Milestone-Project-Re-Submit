@@ -11,4 +11,31 @@ With a modern design this site shows that The Monkees have moved with the times 
 - As a site user I want to watch and hear tracks from The Monkees so I can see what they have available.
 - As a site user I want to be able to visit The Monkeys social media accounts.
 
+## Wireframe
+
+## Features
+
+### Existing Features 
+
+
+### Features Left to Implement
+
+## Technologies Used 
+- HTML
+- CSS
+- Bootstrap (4.3.1)
+
+## Testing 
+
+## Deployment
+
+## Credits 
+
+### Content
+
+### Media 
+
+### Acknowledgements 
+- I received inspiration from the Contact Section from [bandzoogle.com](https://bandzoogle.com/blog/the-5-elements-of-a-perfect-contact-page-for-your-band-website)
+
 
