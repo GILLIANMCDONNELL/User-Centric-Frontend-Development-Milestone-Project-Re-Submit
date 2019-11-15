@@ -12,6 +12,9 @@ a {
     color: #747474;
     text-transform: uppercase;
 }
+p {
+    color: #747474;
+}
 h4 {
     color: #747474;
 }
@@ -19,9 +22,7 @@ h4 {
     background-color: #ff652f;
 }
 
-#about {
-    background-color: #ffe400;
-}
+
 
 #music {
     background-color: #14A76C;
@@ -42,5 +43,37 @@ h4 {
 .jumbotron {
     margin-bottom: 0px;
 }
+/*-----------------------About Section*/
 
+#about {
+    background-color: #272727;
+}
+.card-deck {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+.card {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    width: auto;
+  }
+.card-img-top {
+    border: 12px solid #ffe400;
+    border-bottom: 70px solid #ffe400;
+    -webkit-box-shadow: 3px 3px 3px #ffe400;
+    -moz-box-shadow: 3px 3px 3px #888;
+    box-shadow: 3px 3px 3px #888;
+    height: auto;
+    max-width: 100%;
+  }
+  .card-body {
+    color: #888;
+    font: 500 18px/22px Arial, sans-serif;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+  }
 /* ----------------------Contact Form */

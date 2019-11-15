@@ -30,6 +30,7 @@ With a modern design this site shows that The Monkees have moved with the times 
 ## Deployment
 
 ## Credits 
+- Polaroid Immage Gallery About Section [CodePen by Ick](https://codepen.io/lck/pen/gaVmOr)
 
 ### Content
 
