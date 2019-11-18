@@ -2,11 +2,14 @@
 
 body {
     position: relative;
-    background-color: #272727;*/
+    background-color: #272727;
 }
 .navbar-brand img {
     width: auto;
     height: 150px;
+}
+.bg-dark {
+  background-color: #272727!important;
 }
 a {
     color: #747474;
@@ -14,39 +17,33 @@ a {
 }
 p {
     color: #747474;
+    text-align: center;
 }
-h4 {
+h4, h5 {
     color: #747474;
 }
+
+
 #home {
     background-color: #ff652f;
 }
-
-
 
 #music {
     background-color: #14A76C;
 }
 
-#shows {
-    background-color: #0074e1;
-}
-
-#photos {
-    background-color: #8f00cd;
-}
-
-#contact {
-    background-color: #c62703;
-}
 /*-----------------------Jumbrotron */
 .jumbotron {
     margin-bottom: 0px;
+    background-color: #272727;
 }
 /*-----------------------About Section*/
 
-#about {
-    background-color: #272727;
+.about {
+    color: #ffe400;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
 }
 .card-deck {
     margin: 0 auto;
@@ -60,9 +57,9 @@ h4 {
     width: auto;
   }
 .card-img-top {
-    border: 12px solid #ffe400;
-    border-bottom: 70px solid #ffe400;
-    -webkit-box-shadow: 3px 3px 3px #ffe400;
+    border: 12px solid #fff;
+    border-bottom: 70px solid #fff;
+    -webkit-box-shadow: 3px 3px 3px #fff;
     -moz-box-shadow: 3px 3px 3px #888;
     box-shadow: 3px 3px 3px #888;
     height: auto;
@@ -76,4 +73,84 @@ h4 {
     text-align: center;
     width: 100%;
   }
+/*-----------------------Shows Section*/
+#shows {
+  height: 500px;
+}
+.shows {
+  color: #0074e1;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+button[type="button"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: #fafafa;
+  background-color: #0074e1;
+}
+
+.show-items {
+  margin-bottom: 30px;
+}
+
+/*-----------------------Gallery Section*/
+#photos {
+  height: 500px;
+}
+.photos {
+  color: #8f00cd;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+/*W3Schools responsive Image Gallery Example line 87 to 120*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
 /* ----------------------Contact Form */
+.contact {
+    color: #c62703;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #c62703;
+}

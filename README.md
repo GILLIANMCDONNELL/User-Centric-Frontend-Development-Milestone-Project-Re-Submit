@@ -30,11 +30,13 @@ With a modern design this site shows that The Monkees have moved with the times 
 ## Deployment
 
 ## Credits 
-- Polaroid Immage Gallery About Section [CodePen by Ick](https://codepen.io/lck/pen/gaVmOr)
+- Polaroid Image Gallery About Section [CodePen by Ick](https://codepen.io/lck/pen/gaVmOr)
+- Photos Gallery Responsive Image Grid [W3Schools](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
 
 ### Content
 
 ### Media 
+- Gallery Photos [Getty Images](https://www.gettyimages.ie/)
 
 ### Acknowledgements 
 - I received inspiration from the Contact Section from [bandzoogle.com](https://bandzoogle.com/blog/the-5-elements-of-a-perfect-contact-page-for-your-band-website)
