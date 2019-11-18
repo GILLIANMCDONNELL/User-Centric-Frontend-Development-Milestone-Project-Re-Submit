@@ -51,11 +51,7 @@
             <!--******Home Section*****-->
             <div id="home" class="jumbotron">
                 <h4 id="home">Home</h4>
-                <p>Lots of stufffdvkjfdnkj
-                    dfvnknfk
-                    fdvkml
-                </p>
-
+                
 
             </div>
             <!--******About Section*****-->
@@ -101,28 +97,7 @@
                 </div>
             </div>
 
-            <!--******Music Section*****-->
-            <section id="music" class="container-fluid">
-                <h4 class="title">Music</h4>
-                <div class="row">
-                        <div class="col">
-                                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-                            <iframe src="https://open.spotify.com/embed/artist/320EPCSEezHt1rtbfwH6Ck" width="300"
-                                height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                                </div>
-                        </div>
-                        <div class="col">
-                                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xvqeSJlgaNk?start=23"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                </div>
-
-            </section>
-
-            <!--******Shows Section*****-->
+                      <!--******Shows Section*****-->
             <section id="shows" class="container-fluid overflow-auto">
                 <h4 class="title">Shows</h4>
                 <h5>2020 Tour Dates</h5>
@@ -222,7 +197,26 @@
 
                 </div>
             </section>
+  <!--******Music Section*****-->
+  <section id="music" class="container-fluid">
+        <h4 class="title">Music</h4>
+        <div class="row">
+                <div class="col">
+                        <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe src="https://open.spotify.com/embed/artist/320EPCSEezHt1rtbfwH6Ck" width="300"
+                        height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                </div>
+                <div class="col">
+                        <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xvqeSJlgaNk?start=23"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+        </div>
 
+    </section>
 
 
             <!--******Gallery Section*****-->
@@ -339,6 +333,9 @@
     </div>
     <script>
         $('body').scrollspy({ target: '#scroll-nav' })
+        $('.carousel').carousel({
+  interval: 800
+})
     </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
